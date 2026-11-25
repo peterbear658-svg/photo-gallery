@@ -1,0 +1,29 @@
+# Dependencies and generated web output
+/node_modules/
+/.angular/
+/www/
+/coverage/
+/playwright-report/
+/test-results/
+
+# Android local and build files
+/android/.gradle/
+/android/local.properties
+/android/build/
+/android/app/build/
+/android/capacitor-cordova-android-plugins/build/
+/android/app/src/main/assets/public/
+/android/app/src/main/assets/capacitor.config.json
+
+# iOS generated files
+/ios/App/Pods/
+/ios/App/build/
+/ios/App/App/public/
+/ios/App/App/capacitor.config.json
+/ios/App/CapApp-SPM/Package.swift
+
+# Operating system files
+.DS_Store
+Thumbs.db
+*.orig
+**/.idea/
